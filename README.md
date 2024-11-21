@@ -5,7 +5,7 @@
 This repository contains an Arduino sketch for controlling the built-in LED and reading real-time accelerometer data from the Arduino Nano RP2040 Connect board.  
 The sketch uses Bluetooth connectivity to enable remote control of the built-in LED and transmission of accelerometer readings to a companion iOS app.
 
-The sketch was adapted from the original [iOSArduinoBLE Arduino Sketch](https://github.com/leonardocavagnis/iOSArduinoBLE_ArduinoSketch) to include accelerometer support and battery-powered operation.
+The corresponding iOS App for this sketch can be found here: [MotionBLE Sketch](https://github.com/juliasakakibara/MotionBLE_iOS)
 
 ---
 
@@ -41,6 +41,7 @@ Please install these libraries through the Arduino Library Manager before upload
 ## **Modifications**
 
 This project is based on the original work by [Leonardo Cavagnis](https://github.com/leonardocavagnis).  
+The sketch was adapted from the original [iOSArduinoBLE Arduino Sketch](https://github.com/leonardocavagnis/iOSArduinoBLE_ArduinoSketch) to include accelerometer support and battery-powered operation.
 
 Adaptations include:
 - Real-time accelerometer data reading (X, Y, Z axes).
